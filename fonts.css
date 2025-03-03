@@ -1,36 +1,12 @@
-/* Computer Moderna family*/
+/* Computer Moderna*/
 @font-face {
     font-family: "computer-moderna";
-    src: url(cm/cmunci.ttf) format(truetype);
+    src: url(fonts/cmunbi.ttf) format(truetype);
     font-style: italic;
     font-weight: 100;
 }
+/* Montserrat */
 @font-face {
-    font-family: "computer-moderna";
-    src: url(cm/cmunrm.ttf) format(truetype);
-    font-style: normal;
-    font-weight: 400;
-}
-@font-face {
-    font-family: "computer-moderna";
-    src: url(cm/cmunsi.ttf) format(truetype);
-    font-style: italic;
-    font-weight: 400;
-}
-@font-face {
-    font-family: "computer-moderna";
-    src: url(cm/cmunbx.ttf) format(truetype);
-    font-style: normal;
-    font-weight: 700;
-}
-@font-face {
-    font-family: "computer-moderna";
-    src: url(cm/cmunbi.ttf) format(truetype);
-    font-style: italic;
-    font-weight: 700;
-}
-/* Noto Sans Mono*/
-@font-face {
-    font-family: "noto-sans-mono";
-    src: url(Noto_Sans_Mono/NotoSansMono.ttf) format(truetype);
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Bold.ttf) format(truetype);
 }
