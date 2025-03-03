@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teoría de conjuntos</title>
     <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="fonts.css"></link>
 </head>
 <body>
-    <form id="inputForm"> 
-        <label id="labelN">Introduce a number<br>
-            <input type="number" id="numN" class="inputNum"></input>
-        </label>
-        <button id="btn" type="button">Submit</button>
-        <br>
+    <form id="inputForm" class="form"> 
+        <div class="contGen">
+            <h4 id="title">Introduce a first number</h4><br>
+                <div class="contInput">
+                    <input type="number" id="inputN" class="inputNum"></input>
+                    <button id="btnN" type="button">Submit</button><br>
+                    <input type="number" id="inputM" class="inputNum"></input>
+                    <button id="btnM" type="button">Submit</button>
+                </div>
+        </div>
     </form>
-    <p id="sets">
-        
-    </p>
-    <p id="results">
-        
-    </p>
+    <div id="output" class="contOutput">
+        <p id="sets"></p>
+        <p id="results"></p>
+    </div>
     <script src="source.js"></script> 
 </body>
 </html>
